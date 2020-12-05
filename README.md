@@ -15,9 +15,13 @@ This project is an introduction to Gazebo, and contains a Gazebo World and a few
 #### 3- Create a build directory and compile the code
 
 $ mkdir build
+
 $ cd build/
+
 $ cmake ../
+
 $ make # You might get errors if your system is not up to date!
+
 $ export GAZEBO_PLUGIN_PATH=${GAZEBO_PLUGIN_PATH}:/home/workspace/sal_bot/build
 
 #### 4- Open your world file and attach the plugin to it
